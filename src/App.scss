@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+/*======= COLORS =======*/
+$main-bg-color: #ffffff;
+$second-bg-color: #f7f7f7;
+
+$hover-color: #64c29e;
+
+$header-color: #353738;
+$main-text-color: #848789;
+
+/*======= FONTS =======*/
+$body-font: 'Lato', sans-serif;
+
+/* 1rem = 16px */
+$normal-font-size: 1rem;
+$nav-font-size: 0.8rem;
+$header-font-size: 1.12rem;
+$text-font-size: 1rem;
+
+/*======= BASE STYLE =======*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+button,
+input,
+textarea {
+  font-family: $body-font;
+  font-size: $normal-font-size;
+}
+
+body {
+  background-color: $main-bg-color;
+  color: $main-text-color;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+a:visited,
+a:active {
+  color: #353738;
+}
+
+
+button {
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

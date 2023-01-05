@@ -1,0 +1,46 @@
+// @import "./../../../../App.scss";
+
+// .carousel {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+//     text-align: center;
+//     max-width: 1130px;
+//     margin: 0 auto;
+//     overflow: hidden;
+
+// }
+
+// .inner {
+//     display: flex;
+//     flex-direction: row;
+//     flex-wrap: nowrap;
+//     transition: transform 0.3s;
+// }
+
+// .carousel-item {
+//     overflow: hidden;
+// }
+
+// .slider-dots {
+//     padding: 3rem 0 0 0;
+
+//     & ul {
+//         display: flex;
+//         gap: 0.7rem;
+
+//         & li {
+//             font-size: 0;
+//             width: 11px;
+//             height: 11px;
+//             border: 1px solid $main-text-color;
+//             border-radius: 50%;
+//             cursor: pointer;
+//         }
+
+//         & .active {
+//             background-color: $main-text-color;
+//         }
+//     }
+// }

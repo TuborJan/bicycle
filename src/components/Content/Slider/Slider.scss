@@ -1,0 +1,45 @@
+@import "./../../../App.scss";
+
+.slider {
+    display: flex;
+    flex-direction: column;
+    background-color: $second-bg-color;
+    padding: 7.5rem 0 3.75rem;
+}
+
+.slider__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 15px;
+    margin: 0 auto;
+
+    .slider__icon {
+        img {
+            margin: 0 auto;
+        }
+    }
+
+    .slider__header {
+        font-size: 1.2rem;
+        text-transform: none;
+
+        .slider__header_thin {
+            color: $main-text-color;
+            font-weight: 300;
+        }
+    }
+
+    .slider__text {
+        font-size: $header-font-size;
+        font-size: 1.5rem;
+        line-height: 2.1rem;
+        font-style: italic;
+    }
+}
+
+.slick-dots {
+    margin-top: 10px;
+}

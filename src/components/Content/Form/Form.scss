@@ -1,0 +1,79 @@
+@import "./../../../App.scss";
+
+.form__container {
+    display: flex;
+    flex-direction: column;
+    max-width: 34.4rem;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    padding: 6.7rem 0;
+
+    .form__body {
+        width: 100%;
+    }
+
+    .form__logo {
+        margin-bottom: 2.375rem;
+    }
+
+    .form__header {
+        margin-bottom: 2.125rem;
+        font-size: 1.5rem;
+        font-style: italic;
+    }
+
+    .form__form {
+        display: flex;
+
+        .form__input {
+            flex: 1 1 auto;
+            padding-right: 0.5rem;
+
+            input {
+                padding: 0 1.5rem;
+                height: 4.125rem;
+                width: 100%;
+                border: 1px solid $main-text-color;
+            }
+        }
+
+        .form__button {
+            flex: 0 1 8rem;
+
+            button {
+                position: relative;
+                color: $main-bg-color;
+                font-weight: 300;
+                font-size: 1.5rem;
+                background-color: $hover-color;
+                border: none;
+                height: 4.125rem;
+                width: 100%;
+            }
+
+            button::after {
+                position: absolute;
+                content: "";
+                width: 0;
+                height: 100%;
+                left: 50%;
+                top: 0;
+                background-color: #282f35;
+                transition: all 0.5s;
+            }
+
+            button:hover span {
+                position: relative;
+                z-index: 2;
+                color: $main-bg-color;
+
+            }
+
+            button:hover::after {
+                left: 0;
+                width: 100%;
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+@import "./../../../App.scss";
+
+.generations {
+    background-color: $second-bg-color;
+    padding: 7.31rem 0 8.87rem;
+}
+
+.generations__containre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 1130px;
+    padding: 0 15px;
+    margin: 0 auto;
+
+    & .generations__text {
+        font-size: $header-font-size;
+        line-height: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .generations {
+        padding: 4rem 0 5rem;
+    }
+}

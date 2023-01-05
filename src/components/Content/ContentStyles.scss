@@ -1,0 +1,147 @@
+@import "./../../App.scss";
+
+/*======= REUSABLE STYLE =======*/
+.content__container {
+    display: flex;
+}
+
+.content__header {
+    margin-bottom: 1.625rem;
+    font-size: $header-font-size;
+    text-transform: uppercase;
+    color: $header-color;
+    letter-spacing: 3px;
+}
+
+.content__icon {
+    margin-bottom: 1.875rem;
+}
+
+.content__text {
+    font-size: $text-font-size;
+    color: $main-text-color
+}
+
+.content {
+    flex: 0 1 33.333%;
+}
+
+.text__content {
+    position: relative;
+    padding: 4.43rem 3.55rem 3.43rem;
+    text-align: center;
+
+    & .content__text {
+        text-align: justify;
+        line-height: 1.875rem;
+    }
+
+    & .content__text::after {
+        content: "";
+        display: block;
+        margin: 2.62rem auto 0 auto;
+        width: 3.125rem;
+        height: 1px;
+        background-color: $main-text-color;
+    }
+}
+
+.text__content::after {
+    content: "";
+    position: absolute;
+    bottom: -0.625rem;
+    margin-left: -0.625rem;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #fff;
+    z-index: 1;
+}
+
+.img__content {
+    position: relative;
+    padding: 0 0 33.333% 0;
+
+    & img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+
+@media screen and (max-width: 1440px) {
+    .content__header {
+        margin-bottom: 1.125rem;
+    }
+
+    .content {
+        & .text__content {
+            padding: 3rem 2rem 2rem;
+
+            & .content__text::after {
+                margin: 1.5rem auto 0 auto;
+
+            }
+        }
+    }
+}
+
+.main-img {
+    flex: 0 1 66.667%;
+}
+
+.item {
+    display: block;
+    position: relative;
+    height: 100%;
+
+    & .item__logo {
+        text-transform: uppercase;
+        color: $main-bg-color;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: 0.4s ease-in-out;
+        background-color: rgba($hover-color, .4);
+        z-index: 5;
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    & .item__bg {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+
+        & img {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            object-fit: cover;
+        }
+    }
+}
+
+.item:hover {
+    & .item__logo {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .content__container {
+        flex-direction: column;
+    }
+}
