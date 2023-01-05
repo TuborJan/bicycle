@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/bicycle/static/css/main.4731f844.css",
+    "main.js": "/bicycle/static/js/main.d2a8e245.js",
+    "static/media/firstGenerationMainImg.png": "/bicycle/static/media/firstGenerationMainImg.a3f97a9c66bd36dd4300.png",
+    "static/media/SecondGenerationMainImg.png": "/bicycle/static/media/SecondGenerationMainImg.7df79caac3f15781d7e3.png",
+    "static/media/ThridGenerationRightImg.png": "/bicycle/static/media/ThridGenerationRightImg.8bd84ffaa8a9764baba0.png",
+    "static/media/ThridGenerationLeftImg.png": "/bicycle/static/media/ThridGenerationLeftImg.6ddad2eea38ac017b0ff.png",
+    "static/media/MainImg.png": "/bicycle/static/media/MainImg.917020cbcf64171d3dda.png",
+    "static/media/right-top.png": "/bicycle/static/media/right-top.d8f263d65454bc352a4e.png",
+    "static/media/middle-left.png": "/bicycle/static/media/middle-left.f85fb5a9f57763cdb813.png",
+    "static/media/firstGenerationContentImg.png": "/bicycle/static/media/firstGenerationContentImg.fc724494c791d65bd4ad.png",
+    "static/media/middle-right.png": "/bicycle/static/media/middle-right.e30fdd416130cd32fb40.png",
+    "static/media/left-bottom.png": "/bicycle/static/media/left-bottom.767984556a8c4f78ba7c.png",
+    "static/media/ThridGenerationContentImg.png": "/bicycle/static/media/ThridGenerationContentImg.64ab95818d63c92506c5.png",
+    "static/media/SecondGenerationContentImg.png": "/bicycle/static/media/SecondGenerationContentImg.c83e0a53442d40dfc29a.png",
+    "static/media/left-right.png": "/bicycle/static/media/left-right.8783bf12d044a24aee91.png",
+    "static/media/right-right.png": "/bicycle/static/media/right-right.9d6b2c94f219962442ec.png",
+    "static/media/right-left.png": "/bicycle/static/media/right-left.03ec68b6e4f318cf87ed.png",
+    "static/media/left-left.png": "/bicycle/static/media/left-left.28bb4733c534b203fd8c.png",
+    "static/media/slick.svg": "/bicycle/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/bicycle/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/bicycle/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/bicycle/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/bicycle/index.html",
+    "main.4731f844.css.map": "/bicycle/static/css/main.4731f844.css.map",
+    "main.d2a8e245.js.map": "/bicycle/static/js/main.d2a8e245.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4731f844.css",
+    "static/js/main.d2a8e245.js"
+  ]
+}
